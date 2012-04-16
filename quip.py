@@ -1,6 +1,6 @@
 # Copyright Robin Wallar 2011
-# robin@fathomsolutions.ca @freshwinded
-# Version: 0.1
+# robin@wallar.ca 
+# @freshwinded
 # You may use quip under either the MIT License or the GNU General Public License (GPL) Version 2
 
 import sys, os
