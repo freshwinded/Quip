@@ -1,5 +1,5 @@
 #quip#
-quip is a simple, lightweight CSS processor that provides variable substitution while allowing you to design the way you want, with the tools you want
+quip is a simple, lightweight CSS post-processor that provides variable substitution while allowing you to design the way you want, with the tools you want
 
 ##Setup##
 * Step 1: Move quip to your CSS Folder
@@ -52,7 +52,9 @@ quip is a simple, lightweight CSS processor that provides variable substitution 
  			
 
 You can re-run quip at any time. Change a defintion, edit your css. Repeat Step 4 whenever you want.
+
 License:
 You may use quip under either the MIT License or the GNU General Public License (GPL) Version 2
 About:
-quip is a project of Robin Wallar [@freshwinded]
+
+quip is a project of Robin Wallar [@freshwinded](http://twitter.com/freshwinded)
