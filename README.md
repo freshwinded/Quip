@@ -10,7 +10,8 @@ quip is a simple, lightweight CSS post-processor that provides variable substitu
 	Place quip.css in the same folder as quip.py and define some simple sytax:
 
 	variable = value
-	variable can be whatever you want, this is what you will but in your css.
+
+	variable can be whatever you want, this is what you will put in your css.
 	
 	value can be whatever you want
 	
@@ -48,13 +49,10 @@ quip is a simple, lightweight CSS post-processor that provides variable substitu
 		}
 
 	You're Done!
-
- 			
-
-You can re-run quip at any time. Change a defintion, edit your css. Repeat Step 4 whenever you want.
-
-License:
-You may use quip under either the MIT License or the GNU General Public License (GPL) Version 2
-
+	
+	You can re-run quip at any time. Change a defintion, edit your css. Repeat Step 4 whenever you want.
+		
 ##About:##
 quip is a project of Robin Wallar [@freshwinded](http://twitter.com/freshwinded)
+
+License: You may use quip under either the MIT License or the GNU General Public License (GPL) Version 2
