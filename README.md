@@ -2,11 +2,11 @@
 quip is a simple, lightweight CSS processor that provides variable substitution while allowing you to design the way you want, with the tools you want
 
 ##Setup##
-	##Step 1:##
+* Step 1:
 	Download quip v0.1.1 - April 26 2011
-	Step 2: Move quip to your CSS Folder
+* Step 2: Move quip to your CSS Folder
 	Place quip.py in the root folder of your project or css folder. It will automatically hunt down all your css files
-	Step 3: Write a simple definitions file: quip.css
+* Step 3: Write a simple definitions file: quip.css
 	Place quip.css in the same folder as quip.py and define some simple sytax:
 	variable = value
 	variable can be whatever you want, this is what you will but in your css.
@@ -16,17 +16,16 @@ quip is a simple, lightweight CSS processor that provides variable substitution 
 		normalBorder = 1px solid #cccccc
 		normalRoundedBorder = border-radius:10px; -webkit-border-radius:10px; -moz-border-radius:10px; 
 
-	Step 4: Write Valid CSS
-		 			
-		h1{font-color:/*normalText*/;}		 			
-		.myClass{font-color:/*normalText*/;}		 			
-		div{			
-		  border:/*normalBorder*/;		
-		  /*normalRoundedBorder*/
-		}
+* Step 4: Write Valid CSS 			
+	h1{font-color:/*normalText*/;}		 			
+	.myClass{font-color:/*normalText*/;}		 			
+	div{			
+	  border:/*normalBorder*/;		
+	  /*normalRoundedBorder*/
+	}
 
-	 			
-	Step 4: Run quip
+ 			
+* Step 4: Run quip
 	Run quip from the command line:
 	 			
 	$ python quip.py
