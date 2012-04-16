@@ -2,7 +2,7 @@
 quip is a simple, lightweight CSS processor that provides variable substitution while allowing you to design the way you want, with the tools you want
 
 ##Setup##
-	###Step 1:###
+	##Step 1:##
 	Download quip v0.1.1 - April 26 2011
 	Step 2: Move quip to your CSS Folder
 	Place quip.py in the root folder of your project or css folder. It will automatically hunt down all your css files
