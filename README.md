@@ -10,7 +10,6 @@ quip is a simple, lightweight CSS processor that provides variable substitution 
 	Place quip.css in the same folder as quip.py and define some simple sytax:
 
 	variable = value
-	
 	variable can be whatever you want, this is what you will but in your css.
 	
 	value can be whatever you want
@@ -21,8 +20,8 @@ quip is a simple, lightweight CSS processor that provides variable substitution 
 		normalBorder = 1px solid #cccccc
 		normalRoundedBorder = border-radius:10px; -webkit-border-radius:10px; -moz-border-radius:10px; 
 
-* Step 3: 
-	Write Valid CSS 	
+* Step 3: Write Valid CSS
+	Write Valid CSS inserting valid comments to denote the substitutions.	
 
 		h1{font-color:/*normalText*/;}		 		
 		.myClass{font-color:/*normalText*/;}		 			
