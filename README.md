@@ -1,4 +1,4 @@
-#quip#
+##quip##
 quip is a simple, lightweight CSS post-processor that provides variable substitution while allowing you to design the way you want, with the tools you want
 
 ##Setup##
