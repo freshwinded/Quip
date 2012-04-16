@@ -21,9 +21,7 @@ quip is a simple, lightweight CSS processor that provides variable substitution 
 	Here is a list of examples
 
 		normalText = #999999
-
 		normalBorder = 1px solid #cccccc
-
 		normalRoundedBorder = border-radius:10px; -webkit-border-radius:10px; -moz-border-radius:10px; 
 
 * Step 4: Write Valid CSS 			
