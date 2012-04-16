@@ -6,7 +6,13 @@
 import sys, os
 mode =  sys.argv[1] if len(sys.argv)>1 else 'build'
 quip = '__QUIPCSS__'
-defs = open('quip.css').readlines()
+defs = ''
+try:
+	defs = open('quip.css').readlines()
+except: 
+	print 'No definitions files found. Please create a file, quip.css, in this directory.'
+	exit()
+
 def procFile(file):
 	f = open (file, 'r')
 	data = f.readlines()
@@ -15,7 +21,7 @@ def procFile(file):
 	replace = None
 	for line in data:
 		for definition in defs:
-			replaceVals = definition.replace('\n','').split(' = ')
+			replaceVals = definition.replace('\n','').replace(' = ','=').split('=')
 			if len(replaceVals) > 1:
 				search = '/*' + replaceVals[0] + '*/'
 				index = line.find(search)
@@ -64,4 +70,4 @@ def walk(arg, dir, flst):
 if len(defs)>0: 
 	os.path.walk(os.path.abspath(os.path.curdir), walk, None )
 else:
-	print 'No defintions found.' 
+	print 'No defintions found. Please add some definitions of the form: variable = value' 
