@@ -21,7 +21,7 @@ quip is a simple, lightweight CSS processor that provides variable substitution 
 		normalRoundedBorder = border-radius:10px; -webkit-border-radius:10px; -moz-border-radius:10px; 
 
 * Step 3: Write Valid CSS
-	
+
 	Write Valid CSS inserting valid comments to denote the substitutions.	
 
 		h1{font-color:/*normalText*/;}		 		
@@ -38,8 +38,6 @@ quip is a simple, lightweight CSS processor that provides variable substitution 
 	 			
 		$ python quip.py
 	 			
-	Output
-
 	Quip will find and process your css files. You will now have:
 	 			
 		h1{font-color:#999999/*normalText*/;}
