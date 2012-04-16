@@ -55,6 +55,6 @@ You can re-run quip at any time. Change a defintion, edit your css. Repeat Step 
 
 License:
 You may use quip under either the MIT License or the GNU General Public License (GPL) Version 2
-About:
 
+##About:##
 quip is a project of Robin Wallar [@freshwinded](http://twitter.com/freshwinded)
